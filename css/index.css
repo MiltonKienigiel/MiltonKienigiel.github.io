@@ -1,4 +1,15 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+h1{
+
+}
+h2{
+    color:wheat;
+}
 .contenedor-logos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: xx-large;
 }
