@@ -244,6 +244,9 @@ font-weight: bolder;
 .titulo4{
   padding-top: 60px;
 }
+.proyectos h3{
+  color: white;
+}
 /*----------------------------------Tablet------------------------*/
 @media(max-width:768px){
   .proyectos{
