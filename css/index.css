@@ -2,66 +2,88 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    box-sizing: border-box;
 }
 body{
-    background-color: black;
-    color: blanchedalmond;
+    background-color: white;
+    color: black;
+    font-family: 'Varela', sans-serif;
 }
-/* #miltonPh{
-   border-radius: 50%;
 
-} */
-h2{
-    color:wheat;
+
+.nombre{
+  color: black;
 }
+
 .contenedor-grande{
   width: 60%;
-  
 }
 
-.contenedor-grande div{
-  font-size: x-large;
+
+.fa-html5{
+  color: #F16524;
+  transition: transform 1s ease;
 }
-.texto-about{
-  font-size: xx-large;
+
+.fa-css3-alt{
+  color: #046DBE;
 }
-.contenedor-logos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+.fa-js-square{
+    color: #efd81d;
 }
-.contenedor-logos i{
+
+.fa-bootstrap{
+  color: #563D7C;
+}
+
+.fa-github{
+  color: black;
+}
+
+
+.contenedor1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contenedor1 i{
     margin-top: 50px;
     font-size: 150px;
-}
-.contenedor-logos .fa-github{
-    color: white;
+    padding: 30px;
+    transition: transform 1s ease;
 
 }
-.contenedor-logos .fa-html5{
-    color: #F16524;
+.contenedor1 i:hover{
+  transform: scale3d(1.5,1.5,1);
 
 }
-.contenedor-logos .fa-css3-alt{
-    color: #046DBE;
-
-}
-.contenedor-logos .fa-js-square{
-    color: #efd81d;
-    transition: width 2s;
-
-}
-
-.contenedor-logos .fa-bootstrap{
-  color: #563D7C;
-      transition: width 2s;
-
-}
-.contenedor-logos i:hover{
-font-size: 200px;
-}
-.contenedor-logos a{
+.contenedor1 a{
   text-decoration-line:none;
-  color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
+.contenedor2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.contenedor2 i{
+  margin-top: 50px;
+  font-size: 150px;
+  padding: 30px;
+  transition: transform 1s ease;
+
+}
+.contenedor2 i:hover{
+  transform: scale3d(1.5,1.5,1);
+
+}
+
+.contenedor2 a{
+text-decoration-line:none;
+color: black;
+font-weight: bolder;
 }
 /*
 
