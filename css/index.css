@@ -14,15 +14,18 @@ body{
 }
 
 .header{
+  position: fixed;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 20px;
+  background-color:black;
 }
 .header a{
   text-decoration-line: none;
   color: white;
   transition: transform 1s ease;
+  
 }
 .varios {
   margin-top: 20px;
@@ -69,6 +72,7 @@ body{
 
 .nombre{
   color: white;
+  padding-top: 60px;
 }
 #gris{
   color: grey;
@@ -81,7 +85,6 @@ body{
 
 .fa-html5{
   color: #F16524;
-  transition: transform 1s ease;
 }
 
 .fa-css3-alt{
@@ -98,8 +101,17 @@ body{
 
 .fa-github{
   color: white;
-}
+  transform: ;
 
+}
+.fa-react{
+  color: #61DAFB;
+  transform:rotate(90deg);
+
+}
+.fa-node-js{
+  color: #91C441;
+}
 
 .contenedor1{
   display: grid;
@@ -179,10 +191,11 @@ font-weight: bolder;
 }
 .contactos{
   font-size: xx-large;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 60%;
-  padding: 90px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  width: 40%;
+  padding: 20px 90px 90px 90px;
 }
 .contactos a{
     text-decoration-line: none;
@@ -198,9 +211,10 @@ font-weight: bolder;
 .fa-whatsapp-square{
   color: #2AB540;
 }
+
 .contactos i{
   transition: transform 1s ease;
-  font-size: 150px;
+  font-size: 100px;
   padding: 30px;
 
 }
@@ -216,4 +230,7 @@ font-weight: bolder;
 .texto2{
   font-size: large;
   font-weight: bolder;
+}
+.titulo4{
+  padding-top: 60px;
 }

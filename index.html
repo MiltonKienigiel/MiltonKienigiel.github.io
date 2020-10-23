@@ -7,7 +7,6 @@
     <title>Milton Kienigiel</title>
     <script src="https://kit.fontawesome.com/a0c0bb4f74.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
@@ -15,20 +14,20 @@
 </head>
 
 <body>
-    
-    <div class="parte1">
-        <div class="header">
+    <div class="header">
             <a href="#" uk-scroll><div class="varios"></div></a>
             <a href="#" uk-scroll><h3 id="about">About</h3></a>
             <a href="#herramienta" uk-scroll><h3 id="herramientas">Herramientas</h3></a>
             <a href="#proyecto" uk-scroll><h3 id="proyectos">Proyectos</h3></a>
-            <a href="#" uk-scroll><h3 id="contacto">Contacto</h3></a>
+            <a href="#contactos" uk-scroll><h3 id="contacto">Contacto</h3></a>
             <a href="#" uk-scroll><h3 id="english">English</h3></a>
             
         </div>
+    <div class="parte1">
+        
         <div class="nombre">
             <h1>Milton Kienigiel</h1>
-            <h3 id="gris">Frontend Developer</h3>
+            <h3 id="gris">Desarrollador Web</h3>
         </div>
         <div>
 
@@ -60,14 +59,26 @@
                     <div>Github</div>
                 </a>
             </div>
+            <h2 class="titulo4">
+                <strong>En Proceso de aprendizaje</strong>
+                </h2>
+            <div class="contenedor2">
+                <a href="#"><i class="fab fa-react"></i>
+                        <div>React</div>
+                </a>
+
+                <a href="#"><i class="fab fa-node-js"></i>
+                    <div>Node.js</div>
+                </a>
+            </div>
         </div>   
     </div>
 
     <h2 class="titulo3" id="proyecto">
         <strong>Proyectos</strong>
     </h2>
-    <div class="proyectos">
-        <a href="https://github.com/MiltonKienigiel/Proyecto-Integrador-Programacion-1">
+    <div class="proyectos" uk-scrollspy="cls:uk-animation-fade">
+        <a  href="https://github.com/MiltonKienigiel/Proyecto-Integrador-Programacion-1">
             <img id="miltonPh" src="/img/Mashup.png" alt="Plataforma de Musica">
             <h3>Plataforma de Musica</h3>
         </a>
@@ -81,18 +92,18 @@
     <h2 class="titulo3" id="contactos">
         Contacto
     </h2>
-    <div class="contactos">
-        <a href="https://www.instagram.com/milton_ki/">
-            <i class="fab fa-instagram-square"></i>
-            <div class="texto2">Instagram</div>
+    <div id="contactos" class="contactos">
+        <a href="tel:+5491125112209">
+            <i class="fab fa-whatsapp-square"></i>       
+            <div class="texto2">Agendame :)</div>
         </a>
         <a href="https://www.linkedin.com/in/miltonkienigiel/">
             <i class="fab fa-linkedin"></i> 
             <div class="texto2">Linkedin</div>       
         </a>
-        <a href="tel:+5491125112209">
-            <i class="fab fa-whatsapp-square"></i>       
-            <div class="texto2">Agendame :)</div>
+         <a href="https://www.instagram.com/milton_ki/">
+            <i class="fab fa-instagram-square"></i>
+            <div class="texto2">Instagram</div>
         </a>
     </div>
 </body>
