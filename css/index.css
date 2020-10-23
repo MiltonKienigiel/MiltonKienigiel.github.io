@@ -20,6 +20,7 @@ body{
   flex-direction: row;
   justify-content: space-around;
   background-color:black;
+  
 }
 .header a{
   text-decoration-line: none;
@@ -69,10 +70,15 @@ body{
   color: white;
   padding: 0 100px 100px 100px;
 }
+.fotito{
+  padding-top: 80px;
 
+}
+.fotito img{
+  border-radius: 50%;
+}
 .nombre{
   color: white;
-  padding-top: 60px;
 }
 #gris{
   color: grey;
@@ -101,7 +107,6 @@ body{
 
 .fa-github{
   color: white;
-  transform: ;
 
 }
 .fa-react{
@@ -233,4 +238,40 @@ font-weight: bolder;
 }
 .titulo4{
   padding-top: 60px;
+}
+/*----------------------------------Tablet------------------------*/
+@media(max-width:768px){
+  .proyectos{
+    margin: 0px;    
+    
+  }
+  .parte1{
+    padding:0px;
+  }
+  .contenedor-grande{
+    width: 100%;
+  }
+  .contenedor2{
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width:320px){
+  .header{
+    flex-direction: column;
+    position: relative;
+  }
+  .titulo3{
+    margin-top: 0px;
+  }
+  .contenedor1{
+    grid-template-columns: 1fr ;
+  }
+  .contenedor2{
+    grid-template-columns: 1fr;
+  }
+  .contactos{
+    flex-direction: column;
+    width: 100%;
+  }
 }
