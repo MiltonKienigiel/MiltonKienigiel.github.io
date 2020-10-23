@@ -261,7 +261,7 @@ font-weight: bolder;
   }
 }
 
-@media(max-width:320px){
+@media(max-width:420px){
   .header{
     flex-direction: column;
     position: relative;
@@ -276,7 +276,18 @@ font-weight: bolder;
     grid-template-columns: 1fr;
   }
   .contactos{
-    flex-direction: column;
+    padding:10px 0px 10px 0px;
     width: 100%;
+  }
+  .proyectos{
+    grid-template-columns: 1fr;
+    padding:0px 5px 0px 5px;
+  }
+  .contactos i{
+    font-size: 60px;
+    padding:0px;
+  }
+  .texto2{
+    font-size: small;
   }
 }
