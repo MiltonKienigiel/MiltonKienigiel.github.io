@@ -5,12 +5,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: 'Varela', sans-serif;
     margin: 0;
-    
-
 }
 
 .header{
@@ -76,6 +74,12 @@ body{
 }
 .fotito img{
   border-radius: 50%;
+  transition: all 1s ease;
+
+}
+.fotito img:hover{
+  transform:rotate(180deg);
+
 }
 .nombre{
   color: white;
@@ -235,6 +239,7 @@ font-weight: bolder;
 .texto2{
   font-size: large;
   font-weight: bolder;
+  color: white;
 }
 .titulo4{
   padding-top: 60px;
