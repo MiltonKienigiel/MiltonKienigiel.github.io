@@ -130,7 +130,7 @@ body{
     margin-top: 50px;
     font-size: 150px;
     padding: 30px;
-    transition: transform 1s ease;  
+    transition: transform 0.5s ease;  
 
 }
 .contenedor1 i:hover{
@@ -152,7 +152,7 @@ body{
   margin-top: 50px;
   font-size: 150px;
   padding: 30px;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 
 }
 .contenedor2 i:hover{
@@ -222,7 +222,7 @@ font-weight: bolder;
 }
 
 .contactos i{
-  transition: transform 1s ease;
+  transition: transform 0.25s ease;
   font-size: 100px;
   padding: 30px;
 
