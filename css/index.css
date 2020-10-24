@@ -11,6 +11,32 @@ body{
     margin: 0;
 }
 
+#grisuli{
+  color: white;
+  text-decoration-line: none;
+  
+}
+#grisuli:hover{
+  color:#3772ff ;
+}
+#talk{
+  color:#3772ff ;
+  text-decoration-line:underline ;
+  display: inline;
+}
+.grisuli-arriba{
+  padding-bottom: 35px;
+}
+.grisuli-arriba:hover{
+  color: #df2935;
+
+}
+.grisuli-arriba-arriba:hover{
+  color: #fdca40;
+}
+.grisuli-bien-arriba:hover{
+color: #6fffe9;
+}
 .header{
   position: fixed;
   width: 100%;
@@ -83,6 +109,7 @@ body{
 }
 .nombre{
   color: white;
+  padding-bottom: 30px;
 }
 #gris{
   color: grey;
@@ -189,7 +216,6 @@ font-weight: bolder;
 
 }
 .proyectos img:hover{
-  transform:rotate(180deg);
   border-radius:20px;
   border: 4px dotted #333;
   opacity: 90%;
@@ -246,6 +272,9 @@ font-weight: bolder;
 }
 .proyectos h3{
   color: white;
+}
+.parte1{
+  padding: 0px;
 }
 /*----------------------------------Tablet------------------------*/
 @media(max-width:768px){
