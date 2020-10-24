@@ -8,7 +8,7 @@ let titulo6 = document.getElementById("contactos");
 let header1 = document.getElementById("about");
 let header2 = document.getElementById("proyectos");
 let header3 = document.getElementById("contacto");
-let header4 = document.getElementById("english");
+let header4 = document.getElementById("herramientas");
 
 if (spanish.innerHTML=="Español") {
     spanish.onclick=()=>{
@@ -20,10 +20,9 @@ if (spanish.innerHTML=="Español") {
         titulo5.innerHTML= "Plataforma de Musica"
         titulo6.innerHTML= "Contacto"
         header1.innerHTML= "Acerca de Mí"
-        header2.innerHTML= "Habilidades"
-        header3.innerHTML= "Proyectos"
-        header4.innerHTML= "Contáctame"
-
+        header2.innerHTML= "Proyectos"
+        header3.innerHTML= "Contáctame"
+        header4.innerHTML = "Habilidades"
     }
 } else{
     spanish.onclick=()=>{
