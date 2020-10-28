@@ -24,17 +24,17 @@ body{
   text-decoration-line:underline ;
   display: inline;
 }
-.grisuli-arriba{
+#grisuli-arriba{
   padding-bottom: 35px;
 }
-.grisuli-arriba:hover{
+#grisuli-arriba:hover{
   color: #df2935;
 
 }
-.grisuli-arriba-arriba:hover{
+#grisuli-arriba-arriba:hover{
   color: #fdca40;
 }
-.grisuli-bien-arriba:hover{
+#grisuli-bien-arriba:hover{
 color: #6fffe9;
 }
 .header{
